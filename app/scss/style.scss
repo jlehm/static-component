@@ -11,15 +11,25 @@ body p {
 h1, h2 { font-family: 'Amsi Pro Ultra'/*font: bold 2em Amsi Pro Ultra*/; }
 h3 { font-family: 'Amsi Pro'/*font: bold 1.17em Amsi Pro*/; }
 
+
 .label {
   font: italic 12px arial, sans-serif;
   padding: 0 10px;
 }
 .splash {
-  text-align: center;
   display: block;
   margin: -15px auto 0 auto;
   padding: 30vh 15vh;
+}
+.txt-lg {
+  font-family: 'Amsi Pro Ultra';
+  font-size: 48px;
+  margin: 5px;
+}
+.txt-md {
+  font-family: 'Amsi Pro';
+  font-size: 24px;
+  margin: 5px;
 }
 
 section {
@@ -77,6 +87,14 @@ nav a {
   p {
     width: 47.5%;
     padding-right: 2.5%;
+    display: table-cell;
+  }
+}
+.threeColumn {
+  padding: 20px;
+  p {
+    width: 30%;
+    padding-right: 3.3%;
     display: table-cell;
   }
 }
