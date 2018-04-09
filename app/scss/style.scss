@@ -1,21 +1,25 @@
-
 body {
   background: #fff;
   min-width: 550px;
   padding: 0;
-}
-body p {
-  font-family: 'Roboto-Light';
+  p {
+    font-family: 'Roboto-Light';
+  }
 }
 
 h1, h2 { font-family: 'Amsi Pro Ultra'/*font: bold 2em Amsi Pro Ultra*/; }
 h3 { font-family: 'Amsi Pro'/*font: bold 1.17em Amsi Pro*/; }
 
-
 .label {
   font: italic 12px arial, sans-serif;
   padding: 0 10px;
 }
+
+section {
+  border-top: 2px dashed lightgrey;
+  margin: 0;
+}
+//splash section//
 .splash {
   display: block;
   margin: -15px auto 0 auto;
@@ -24,19 +28,14 @@ h3 { font-family: 'Amsi Pro'/*font: bold 1.17em Amsi Pro*/; }
 .txt-lg {
   font-family: 'Amsi Pro Ultra';
   font-size: 48px;
-  margin: 5px;
+  margin: 0;
 }
 .txt-md {
   font-family: 'Amsi Pro';
   font-size: 24px;
-  margin: 5px;
-}
-
-section {
-  border-top: 2px dashed lightgrey;
   margin: 0;
 }
-
+//menubar section styling//
 .menubar {
   padding: 0px 25px;
 }
@@ -44,7 +43,6 @@ section {
   width: 50px;
   display: inline-block;
 }
-
 nav {
   float: left;
 
@@ -60,10 +58,9 @@ nav a {
   min-width:100px;
   width:15vw;
 }
-
+//banner gradient section styling//
 .banner-gradient {
   height: 200px;
-  width: 100%;
   background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   opacity: 0.95;
   overflow: auto;
@@ -74,14 +71,15 @@ nav a {
     text-align: center;
     line-height: 30px;
     font-size: 30px;
-    font-family: 'Amsi Pro Ultra';
+    font-family: 'Amsi Pro';
   }
 }
 
-
+//one column styling//
 .oneColumn {
   padding: 20px;
 }
+//two column styling//
 .twoColumn {
   padding: 20px;
   p {
@@ -90,11 +88,52 @@ nav a {
     display: table-cell;
   }
 }
+//three column styling//
 .threeColumn {
   padding: 20px;
   p {
-    width: 30%;
-    padding-right: 3.3%;
+    width: 33.3%;
+    padding-right: 2.5%;
     display: table-cell;
   }
+}
+
+//profile section styling//
+.profile {
+  padding: 20px;
+  overflow: auto;
+}
+.img-wrap {
+  width: 30%;
+  display: block;
+  float: left;
+}
+.img-00 {
+  height: 240px;
+  width: 100%;
+  min-width: 150px;
+  max-width: 250px;
+  background: gray;
+  display:block;
+  margin:0 auto;
+  float: right;
+}
+.profile-contents {
+  width: 65%;
+  display: inline-block;
+  padding: 0 0 0 10px;
+}
+.profile-txt {
+  margin: 0 auto 0 20px;
+  max-width: 600px;
+  display: block;
+}
+.profile p {
+max-width: 600px;
+margin: 10px auto 10px 20px;
+}
+//
+
+.fourCell {
+  padding: 20px;
 }
