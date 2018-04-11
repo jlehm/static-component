@@ -137,3 +137,15 @@ margin: 10px auto 10px 20px;
 .fourCell {
   padding: 20px;
 }
+
+.tiles {
+  width: 100%;
+  padding: 20px;
+}
+.tile {
+  width: 20%;
+  min-height: 150px;
+  height: 20%;
+  display: inline-block;
+  background: lightgrey;
+}
