@@ -140,11 +140,25 @@ margin: 10px auto 10px 20px;
 
 .tiles {
   padding: 0 1.25vw;
+  //narrow
+  padding: 0 1.875vw;
 }
+.tilesDesc {
+  padding: 0 0.6125vw;
+}
+// tile-- even spacing
 .tile {
     width: 21.875vw;
     height: 21.875vw;
     float: left;
     background: lightgrey;
     margin: 1.25vw;
+}
+// tile-- narrow spacing
+.tile {
+    width: 22.8125vw;
+    height: 22.8125vw;
+    float: left;
+    background: lightgrey;
+    margin: 0.6125vw;
 }
