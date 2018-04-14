@@ -139,14 +139,12 @@ margin: 10px auto 10px 20px;
 }
 
 .tiles {
-  padding: 0 2.5vw;
+  padding: 0 1.25vw;
 }
 .tile {
-  width: 23.75vw;
-  min-height: 150px;
-  height: 23.75vw;
-  display: block;
-  float: left;
-  background: lightgrey;
-  margin-bottom: 2.5vw;
+    width: 21.875vw;
+    height: 21.875vw;
+    float: left;
+    background: lightgrey;
+    margin: 1.25vw;
 }
