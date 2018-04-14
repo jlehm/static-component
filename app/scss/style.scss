@@ -139,6 +139,7 @@ margin: 10px auto 10px 20px;
 }
 
 .tiles {
+  overflow: auto;
   padding: 0 1.25vw;
   //narrow
   padding: 0 1.875vw;
@@ -147,6 +148,7 @@ margin: 10px auto 10px 20px;
   padding: 0 0.6125vw;
 }
 // tile-- even spacing
+/*
 .tile {
     width: 21.875vw;
     height: 21.875vw;
@@ -154,10 +156,39 @@ margin: 10px auto 10px 20px;
     background: lightgrey;
     margin: 1.25vw;
 }
+*/
 // tile-- narrow spacing
-.tile {
+.tile-md {
     width: 22.8125vw;
+    min-width: 150px;
+    max-width: 300px;
     height: 22.8125vw;
+    min-height: 150px;
+    max-height: 300px;
+    float: left;
+    background: lightgrey;
+    margin: 0.6125vw;
+}
+
+.tile-lg {
+    width: 30.833vw;
+    min-width: 150px;
+    max-width: 400px;
+    height: 30.833vw;
+    min-height: 150px;
+    max-height: 400px;
+    float: left;
+    background: lightgrey;
+    margin: 0.6125vw;
+}
+
+.tile-xl {
+    width: 46.8875vw;
+    min-width: 150px;
+    max-width: 500px;
+    height: 46.8875vw;
+    min-height: 150px;
+    max-height: 500px;
     float: left;
     background: lightgrey;
     margin: 0.6125vw;
