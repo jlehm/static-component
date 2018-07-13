@@ -16,6 +16,13 @@ module.exports = {
     module:{
       rules:[
         {
+        test: /\.js$/,
+        loader: 'babel-loader',
+          query: {
+             presets: ['es2015']
+          }
+        },
+        {
           test:/\.(s*)css$/,
           use:['style-loader','css-loader','sass-loader']
         },

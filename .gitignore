@@ -1,5 +1,7 @@
 .DS_Store
-node_modules
-public
-dist
+node_modules/
+public/
+dist/
 normalize.css
+package-lock.json
+.cache/
