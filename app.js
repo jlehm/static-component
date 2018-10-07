@@ -1,4 +1,4 @@
-import './app/js/index.js';
+//import './app/js/index.js';
 import './app/css/normalize.css';
 import './app/css/style.css';
 import './app/scss/style.scss';
